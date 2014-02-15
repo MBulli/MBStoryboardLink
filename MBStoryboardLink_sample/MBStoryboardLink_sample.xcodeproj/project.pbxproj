@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28A86E7218AF646E00FB0687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A86E7118AF646E00FB0687 /* Foundation.framework */; };
+		28A86E7418AF646E00FB0687 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A86E7318AF646E00FB0687 /* CoreGraphics.framework */; };
+		28A86E7618AF646E00FB0687 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A86E7518AF646E00FB0687 /* UIKit.framework */; };
+		28A86E7C18AF646E00FB0687 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28A86E7A18AF646E00FB0687 /* InfoPlist.strings */; };
+		28A86E7E18AF646E00FB0687 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86E7D18AF646E00FB0687 /* main.m */; };
+		28A86E8218AF646E00FB0687 /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86E8118AF646E00FB0687 /* MBAppDelegate.m */; };
+		28A86E8518AF646E00FB0687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A86E8318AF646E00FB0687 /* Main.storyboard */; };
+		28A86E8818AF646E00FB0687 /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86E8718AF646E00FB0687 /* MBViewController.m */; };
+		28A86E8A18AF646E00FB0687 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A86E8918AF646E00FB0687 /* Images.xcassets */; };
+		28A86E9118AF646E00FB0687 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A86E9018AF646E00FB0687 /* XCTest.framework */; };
+		28A86E9218AF646E00FB0687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A86E7118AF646E00FB0687 /* Foundation.framework */; };
+		28A86E9318AF646E00FB0687 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A86E7518AF646E00FB0687 /* UIKit.framework */; };
+		28A86E9B18AF646E00FB0687 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28A86E9918AF646E00FB0687 /* InfoPlist.strings */; };
+		28A86E9D18AF646E00FB0687 /* MBStoryboardLink_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86E9C18AF646E00FB0687 /* MBStoryboardLink_sampleTests.m */; };
+		28A86EAF18AF65DF00FB0687 /* MBStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86EA818AF65DF00FB0687 /* MBStoryboardLink.m */; };
+		28A86EB018AF65DF00FB0687 /* MBStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86EA818AF65DF00FB0687 /* MBStoryboardLink.m */; };
+		28A86EB118AF65DF00FB0687 /* MBStoryboardLinkModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86EAA18AF65DF00FB0687 /* MBStoryboardLinkModalSegue.m */; };
+		28A86EB218AF65DF00FB0687 /* MBStoryboardLinkModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86EAA18AF65DF00FB0687 /* MBStoryboardLinkModalSegue.m */; };
+		28A86EB318AF65DF00FB0687 /* MBStoryboardLinkPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86EAC18AF65DF00FB0687 /* MBStoryboardLinkPushSegue.m */; };
+		28A86EB418AF65DF00FB0687 /* MBStoryboardLinkPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86EAC18AF65DF00FB0687 /* MBStoryboardLinkPushSegue.m */; };
+		28A86EB518AF65DF00FB0687 /* MBStoryboardLinkSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86EAE18AF65DF00FB0687 /* MBStoryboardLinkSegue.m */; };
+		28A86EB618AF65DF00FB0687 /* MBStoryboardLinkSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A86EAE18AF65DF00FB0687 /* MBStoryboardLinkSegue.m */; };
+		28A86EBB18AF6EF500FB0687 /* SecondaryStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A86EBA18AF6EF500FB0687 /* SecondaryStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28A86E9418AF646E00FB0687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28A86E6618AF646E00FB0687 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A86E6D18AF646E00FB0687;
+			remoteInfo = MBStoryboardLink_sample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28A86E6E18AF646E00FB0687 /* MBStoryboardLink_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBStoryboardLink_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A86E7118AF646E00FB0687 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28A86E7318AF646E00FB0687 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A86E7518AF646E00FB0687 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28A86E7918AF646E00FB0687 /* MBStoryboardLink_sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBStoryboardLink_sample-Info.plist"; sourceTree = "<group>"; };
+		28A86E7B18AF646E00FB0687 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28A86E7D18AF646E00FB0687 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28A86E7F18AF646E00FB0687 /* MBStoryboardLink_sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBStoryboardLink_sample-Prefix.pch"; sourceTree = "<group>"; };
+		28A86E8018AF646E00FB0687 /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
+		28A86E8118AF646E00FB0687 /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
+		28A86E8418AF646E00FB0687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28A86E8618AF646E00FB0687 /* MBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
+		28A86E8718AF646E00FB0687 /* MBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBViewController.m; sourceTree = "<group>"; };
+		28A86E8918AF646E00FB0687 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28A86E8F18AF646E00FB0687 /* MBStoryboardLink_sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBStoryboardLink_sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A86E9018AF646E00FB0687 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28A86E9818AF646E00FB0687 /* MBStoryboardLink_sampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBStoryboardLink_sampleTests-Info.plist"; sourceTree = "<group>"; };
+		28A86E9A18AF646E00FB0687 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28A86E9C18AF646E00FB0687 /* MBStoryboardLink_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBStoryboardLink_sampleTests.m; sourceTree = "<group>"; };
+		28A86EA718AF65DF00FB0687 /* MBStoryboardLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBStoryboardLink.h; path = ../MBStoryboardLink.h; sourceTree = "<group>"; };
+		28A86EA818AF65DF00FB0687 /* MBStoryboardLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBStoryboardLink.m; path = ../MBStoryboardLink.m; sourceTree = "<group>"; };
+		28A86EA918AF65DF00FB0687 /* MBStoryboardLinkModalSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBStoryboardLinkModalSegue.h; path = ../MBStoryboardLinkModalSegue.h; sourceTree = "<group>"; };
+		28A86EAA18AF65DF00FB0687 /* MBStoryboardLinkModalSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBStoryboardLinkModalSegue.m; path = ../MBStoryboardLinkModalSegue.m; sourceTree = "<group>"; };
+		28A86EAB18AF65DF00FB0687 /* MBStoryboardLinkPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBStoryboardLinkPushSegue.h; path = ../MBStoryboardLinkPushSegue.h; sourceTree = "<group>"; };
+		28A86EAC18AF65DF00FB0687 /* MBStoryboardLinkPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBStoryboardLinkPushSegue.m; path = ../MBStoryboardLinkPushSegue.m; sourceTree = "<group>"; };
+		28A86EAD18AF65DF00FB0687 /* MBStoryboardLinkSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBStoryboardLinkSegue.h; path = ../MBStoryboardLinkSegue.h; sourceTree = "<group>"; };
+		28A86EAE18AF65DF00FB0687 /* MBStoryboardLinkSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBStoryboardLinkSegue.m; path = ../MBStoryboardLinkSegue.m; sourceTree = "<group>"; };
+		28A86EBA18AF6EF500FB0687 /* SecondaryStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondaryStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28A86E6B18AF646E00FB0687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A86E7418AF646E00FB0687 /* CoreGraphics.framework in Frameworks */,
+				28A86E7618AF646E00FB0687 /* UIKit.framework in Frameworks */,
+				28A86E7218AF646E00FB0687 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A86E8C18AF646E00FB0687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A86E9118AF646E00FB0687 /* XCTest.framework in Frameworks */,
+				28A86E9318AF646E00FB0687 /* UIKit.framework in Frameworks */,
+				28A86E9218AF646E00FB0687 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A86E6518AF646E00FB0687 = {
+			isa = PBXGroup;
+			children = (
+				28A86EA618AF65C000FB0687 /* MBStoryboardLink */,
+				28A86E7718AF646E00FB0687 /* MBStoryboardLink_sample */,
+				28A86E9618AF646E00FB0687 /* MBStoryboardLink_sampleTests */,
+				28A86E7018AF646E00FB0687 /* Frameworks */,
+				28A86E6F18AF646E00FB0687 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28A86E6F18AF646E00FB0687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A86E6E18AF646E00FB0687 /* MBStoryboardLink_sample.app */,
+				28A86E8F18AF646E00FB0687 /* MBStoryboardLink_sampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28A86E7018AF646E00FB0687 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28A86E7118AF646E00FB0687 /* Foundation.framework */,
+				28A86E7318AF646E00FB0687 /* CoreGraphics.framework */,
+				28A86E7518AF646E00FB0687 /* UIKit.framework */,
+				28A86E9018AF646E00FB0687 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28A86E7718AF646E00FB0687 /* MBStoryboardLink_sample */ = {
+			isa = PBXGroup;
+			children = (
+				28A86E8018AF646E00FB0687 /* MBAppDelegate.h */,
+				28A86E8118AF646E00FB0687 /* MBAppDelegate.m */,
+				28A86E8318AF646E00FB0687 /* Main.storyboard */,
+				28A86E8618AF646E00FB0687 /* MBViewController.h */,
+				28A86E8718AF646E00FB0687 /* MBViewController.m */,
+				28A86E8918AF646E00FB0687 /* Images.xcassets */,
+				28A86E7818AF646E00FB0687 /* Supporting Files */,
+				28A86EBA18AF6EF500FB0687 /* SecondaryStoryboard.storyboard */,
+			);
+			path = MBStoryboardLink_sample;
+			sourceTree = "<group>";
+		};
+		28A86E7818AF646E00FB0687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28A86E7918AF646E00FB0687 /* MBStoryboardLink_sample-Info.plist */,
+				28A86E7A18AF646E00FB0687 /* InfoPlist.strings */,
+				28A86E7D18AF646E00FB0687 /* main.m */,
+				28A86E7F18AF646E00FB0687 /* MBStoryboardLink_sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28A86E9618AF646E00FB0687 /* MBStoryboardLink_sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				28A86E9C18AF646E00FB0687 /* MBStoryboardLink_sampleTests.m */,
+				28A86E9718AF646E00FB0687 /* Supporting Files */,
+			);
+			path = MBStoryboardLink_sampleTests;
+			sourceTree = "<group>";
+		};
+		28A86E9718AF646E00FB0687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28A86E9818AF646E00FB0687 /* MBStoryboardLink_sampleTests-Info.plist */,
+				28A86E9918AF646E00FB0687 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28A86EA618AF65C000FB0687 /* MBStoryboardLink */ = {
+			isa = PBXGroup;
+			children = (
+				28A86EA718AF65DF00FB0687 /* MBStoryboardLink.h */,
+				28A86EA818AF65DF00FB0687 /* MBStoryboardLink.m */,
+				28A86EA918AF65DF00FB0687 /* MBStoryboardLinkModalSegue.h */,
+				28A86EAA18AF65DF00FB0687 /* MBStoryboardLinkModalSegue.m */,
+				28A86EAB18AF65DF00FB0687 /* MBStoryboardLinkPushSegue.h */,
+				28A86EAC18AF65DF00FB0687 /* MBStoryboardLinkPushSegue.m */,
+				28A86EAD18AF65DF00FB0687 /* MBStoryboardLinkSegue.h */,
+				28A86EAE18AF65DF00FB0687 /* MBStoryboardLinkSegue.m */,
+			);
+			name = MBStoryboardLink;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A86E6D18AF646E00FB0687 /* MBStoryboardLink_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A86EA018AF646E00FB0687 /* Build configuration list for PBXNativeTarget "MBStoryboardLink_sample" */;
+			buildPhases = (
+				28A86E6A18AF646E00FB0687 /* Sources */,
+				28A86E6B18AF646E00FB0687 /* Frameworks */,
+				28A86E6C18AF646E00FB0687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBStoryboardLink_sample;
+			productName = MBStoryboardLink_sample;
+			productReference = 28A86E6E18AF646E00FB0687 /* MBStoryboardLink_sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28A86E8E18AF646E00FB0687 /* MBStoryboardLink_sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A86EA318AF646E00FB0687 /* Build configuration list for PBXNativeTarget "MBStoryboardLink_sampleTests" */;
+			buildPhases = (
+				28A86E8B18AF646E00FB0687 /* Sources */,
+				28A86E8C18AF646E00FB0687 /* Frameworks */,
+				28A86E8D18AF646E00FB0687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28A86E9518AF646E00FB0687 /* PBXTargetDependency */,
+			);
+			name = MBStoryboardLink_sampleTests;
+			productName = MBStoryboardLink_sampleTests;
+			productReference = 28A86E8F18AF646E00FB0687 /* MBStoryboardLink_sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A86E6618AF646E00FB0687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MBulli;
+				TargetAttributes = {
+					28A86E8E18AF646E00FB0687 = {
+						TestTargetID = 28A86E6D18AF646E00FB0687;
+					};
+				};
+			};
+			buildConfigurationList = 28A86E6918AF646E00FB0687 /* Build configuration list for PBXProject "MBStoryboardLink_sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28A86E6518AF646E00FB0687;
+			productRefGroup = 28A86E6F18AF646E00FB0687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A86E6D18AF646E00FB0687 /* MBStoryboardLink_sample */,
+				28A86E8E18AF646E00FB0687 /* MBStoryboardLink_sampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28A86E6C18AF646E00FB0687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A86E8A18AF646E00FB0687 /* Images.xcassets in Resources */,
+				28A86E7C18AF646E00FB0687 /* InfoPlist.strings in Resources */,
+				28A86EBB18AF6EF500FB0687 /* SecondaryStoryboard.storyboard in Resources */,
+				28A86E8518AF646E00FB0687 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A86E8D18AF646E00FB0687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A86E9B18AF646E00FB0687 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A86E6A18AF646E00FB0687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A86E7E18AF646E00FB0687 /* main.m in Sources */,
+				28A86E8818AF646E00FB0687 /* MBViewController.m in Sources */,
+				28A86E8218AF646E00FB0687 /* MBAppDelegate.m in Sources */,
+				28A86EAF18AF65DF00FB0687 /* MBStoryboardLink.m in Sources */,
+				28A86EB118AF65DF00FB0687 /* MBStoryboardLinkModalSegue.m in Sources */,
+				28A86EB318AF65DF00FB0687 /* MBStoryboardLinkPushSegue.m in Sources */,
+				28A86EB518AF65DF00FB0687 /* MBStoryboardLinkSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A86E8B18AF646E00FB0687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A86E9D18AF646E00FB0687 /* MBStoryboardLink_sampleTests.m in Sources */,
+				28A86EB418AF65DF00FB0687 /* MBStoryboardLinkPushSegue.m in Sources */,
+				28A86EB618AF65DF00FB0687 /* MBStoryboardLinkSegue.m in Sources */,
+				28A86EB018AF65DF00FB0687 /* MBStoryboardLink.m in Sources */,
+				28A86EB218AF65DF00FB0687 /* MBStoryboardLinkModalSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28A86E9518AF646E00FB0687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28A86E6D18AF646E00FB0687 /* MBStoryboardLink_sample */;
+			targetProxy = 28A86E9418AF646E00FB0687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28A86E7A18AF646E00FB0687 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A86E7B18AF646E00FB0687 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28A86E8318AF646E00FB0687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A86E8418AF646E00FB0687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28A86E9918AF646E00FB0687 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A86E9A18AF646E00FB0687 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28A86E9E18AF646E00FB0687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28A86E9F18AF646E00FB0687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28A86EA118AF646E00FB0687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBStoryboardLink_sample/MBStoryboardLink_sample-Prefix.pch";
+				INFOPLIST_FILE = "MBStoryboardLink_sample/MBStoryboardLink_sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28A86EA218AF646E00FB0687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBStoryboardLink_sample/MBStoryboardLink_sample-Prefix.pch";
+				INFOPLIST_FILE = "MBStoryboardLink_sample/MBStoryboardLink_sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28A86EA418AF646E00FB0687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBStoryboardLink_sample.app/MBStoryboardLink_sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBStoryboardLink_sample/MBStoryboardLink_sample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MBStoryboardLink_sampleTests/MBStoryboardLink_sampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		28A86EA518AF646E00FB0687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBStoryboardLink_sample.app/MBStoryboardLink_sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBStoryboardLink_sample/MBStoryboardLink_sample-Prefix.pch";
+				INFOPLIST_FILE = "MBStoryboardLink_sampleTests/MBStoryboardLink_sampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A86E6918AF646E00FB0687 /* Build configuration list for PBXProject "MBStoryboardLink_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A86E9E18AF646E00FB0687 /* Debug */,
+				28A86E9F18AF646E00FB0687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A86EA018AF646E00FB0687 /* Build configuration list for PBXNativeTarget "MBStoryboardLink_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A86EA118AF646E00FB0687 /* Debug */,
+				28A86EA218AF646E00FB0687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A86EA318AF646E00FB0687 /* Build configuration list for PBXNativeTarget "MBStoryboardLink_sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A86EA418AF646E00FB0687 /* Debug */,
+				28A86EA518AF646E00FB0687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28A86E6618AF646E00FB0687 /* Project object */;
+}
